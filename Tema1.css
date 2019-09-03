@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(184, 205, 175);
+    color:  rgb(61, 84, 74);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(5, 21, 20);
+}
+
+a:hover {
+    color:rgb(59, 37, 39);
+    background-color: gray;
+    }
+
+/* Link - selected */
+
+a:visited {
+        color: black;
+    }
+/* Hyperlink / Anchor: END */
+.container {
+        width: 90%; 
+        overflow: auto;
+        margin: 10px auto;
+    }
+    p {
+        color: black;
+    }
+/* Debug Aid: BEGIN */
+    .bg-cadet {
+            background-color: rgb(66, 98, 82);
+    }
+/* Debug Aid: END */
+
+    .logo {
+        text-align: center;
+    }
+
+    .menu-primer ul {
+        background-color: rgb(66, 98, 82);
+        border-radius: 10px;
+        box-shadow:
+        0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0, 0.14),
+        0 1px 18px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    .menu-primer li {
+        display: inline-block;
+    }
+
+    .menu-primer a {
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 6px 10px;
+        letter-spacing: 1px;
+    }
+    .menu-primer a:hover {
+       background-color:rgb(124, 155, 139);
+       color: #000;
+    }
+
+    .menu-primer .active {
+        background-color: rgb(124, 155, 139);
+        color: #000;
+    }
+
+    .jumbotron {
+        background-color:rgb(184, 205, 175);
+        border: solid 4px rgb(189, 161, 113);
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .jumbotron h1 {
+        margin: 20px 40px;
+        font-size: 24px;
+    }
+
+    .jumbotron h3 {
+        margin: 20px 40px;
+        font-size: 24px;
+    }
+
+    .copyright p{
+        font-size: 12px;
+        color: #000;
+    }
+/* Footer Box : BEGIN */
+    .container-full {
+        background-color: rgb(189, 161, 113);
+}
+    .footer-box {
+        width: 33.3%;
+        float: left;
+    }
+    .footer-box ul{
+        padding: 0;
+    }
+    .footer-box img{
+        vertical-align: middle;
+    }
+    .footer-box li {
+        padding: 2px 0px;
+    }   
+
+    .footer-box h5 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+/* Footer Box : END */
+
+/*box : BEGIN*/
+.box2-left {
+    width: 49.8%;
+    float: left;
+}
+.box2-right {
+    width: 49.8%;
+    float: right;
+}
+.box-heading {
+    bonder: solid;
+    background-color: rgb(156, 192, 174);
+    border-radius: 0px 4px 0 0; /* Top-Left Top-Right Bottom-Left Bottom-Right */
+    padding: 15px 20px;
+    margin: 0;
+    text-transfrom: uppercase;
+}
+.box-heading h3 {
+    margin: 0px;
+}
+.box-content {
+    border: solid 1px rgb(66, 98, 82);
+    border-top: 0;
+    margin: 0;
+    padding: 10px 0px;
+}
+.box-fixed {
+    height: 130px;
+}
+/*box :END*/
