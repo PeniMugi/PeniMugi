@@ -66,11 +66,12 @@ a:visited {
     .menu-primer .active {
         background-color: rgb(124, 155, 139);
         color: #000;
+        cursor: default;
     }
 
     .jumbotron {
         background-color:rgb(184, 205, 175);
-        border: solid 4px rgb(189, 161, 113);
+        border: solid 4px rgb(66, 98, 82);
         border-radius: 8px;
         padding: 10px;
     }
@@ -122,13 +123,13 @@ a:visited {
     width: 49.8%;
     float: right;
 }
-.box-heading {
-    bonder: solid;
+.box2-heading {
+    border: solid;
     background-color: rgb(156, 192, 174);
     border-radius: 0px 4px 0 0; /* Top-Left Top-Right Bottom-Left Bottom-Right */
     padding: 15px 20px;
     margin: 0;
-    text-transfrom: uppercase;
+    text-transform: uppercase;
 }
 .box-heading h3 {
     margin: 0px;
@@ -141,5 +142,8 @@ a:visited {
 }
 .box-fixed {
     height: 130px;
+}
+.box-content li {
+    color: white;
 }
 /*box :END*/
